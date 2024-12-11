@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" class="watcher loaded">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>DIDDY THE LUBRICATOR</title>
+    <meta charset="UTF-8" />
+    <style>
+      .gallery-section {
+        padding: 50px;
+        background-color: #f6bbd4;
+        text-align: center;
+      }
+
+      .gallery-section h2 {
+        font-family: "Arial", sans-serif;
+        color: #333;
+        font-size: 2rem;
+        margin-bottom: 30px;
+      }
+
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 15px;
+      }
+
+      .gallery-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .gallery-item:hover img {
+        transform: scale(1.1);
+      }
+
+      @media (max-width: 1024px) {
+        .gallery-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .gallery-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .gallery-section {
+          padding: 20px;
+        }
+
+        .gallery-section h2 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+    <style>
+      body {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s ease 0.2s, visibility 0.2s ease 0.2s;
+      }
+
+      .loaded body {
+        opacity: 1;
+        visibility: visible;
+      }
+    </style>
+    <link rel="stylesheet" href="assets/style.min5dec5dec.css" />
+    <link rel="shortcut icon" href="assets/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body style="">
+    <div class="wrapper">
+      <header class="header" style="">
+        <div class="header__container">
+          <a href="/" class="header__logo"
+            ><img src="assets/logo.png" alt="Logo Icon"
+          /></a>
+          <div class="header__rigth">
+            <div class="header__menu menu">
+              <button type="button" class="menu__icon icon-menu">
+                <span></span>
+              </button>
+              <nav class="menu__body">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a
+                      href="#"
+                      data-goto=".about"
+                      data-goto-header=""
+                      class="menu__link"
+                      ><span>About</span></a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a
+                      href="#"
+                      data-goto=".how"
+                      data-goto-header=""
+                      class="menu__link"
+                      ><span>How to buy</span></a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a
+                      href="#"
+                      data-goto=".tokenomics"
+                      data-goto-header=""
+                      class="menu__link"
+                      ><span>Tokenomics</span></a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="header__actions" data-da=".menu__body, 991.98">
+              <div class="header__social">
+                <a target="_blank" href="ttlink" class="header__social-item">
+                  <img src="assets/x.svg" alt="X Logo" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://t.me/Lubricatorcommunity"
+                  class="header__social-item"
+                >
+                  <img src="assets/telegram.svg" alt="Telegram Logo" />
+                </a>
+              </div>
+              <a
+                target="_blank"
+                href="https://pump.fun/coin/81AENREyWi3yju3kyjZaXtRcRdfLDn2zUFJ9jChLpump"
+                class="header__button button"
+              >
+                <span>BUy now</span>
+                <span>BUy now</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="page">
+        <section class="page__hero hero">
+          <div class="hero__container">
+            <h1 class="hero__title">
+              <span style="color: #f5bad2">$LUBE</span>
+            </h1>
+            <p style="color: #f5bad2" class="hero__text">
+              Diddy needs his lube so why not call him the LUBERICATOR
+            </p>
+            <br />
+            <div class="hero__actions">
+              <div class="hero__social">
+                <!-- <a
+                  target="_blank"
+                  href="dexslink"
+                  class="hero__social-item"
+                >
+                  <img src="assets/dex.svg" alt="X Logo" />
+                </a>
+                <a
+                  target="_blank"
+                  href="chartlink"
+                  class="hero__social-item"
+                >
+                  <img src="assets/dextools.svg" alt="X Logo" />
+                </a> -->
+                <!-- <a
+                  target="_blank"
+                  href="https://solscan.io/"
+                  class="hero__social-item"
+                >
+                  <img src="assets/solscan-logo.webp" alt="X Logo" />
+                </a> -->
+                <a target="_blank" href="ttlink/" class="hero__social-item">
+                  <img src="assets/x.svg" alt="X Logo" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://t.me/Lubricatorcommunity/"
+                  class="hero__social-item"
+                >
+                  <img src="assets/telegram.svg" alt="Telegram Logo" />
+                </a>
+              </div>
+              <a
+                target="_blank"
+                href="https://pump.fun/coin/81AENREyWi3yju3kyjZaXtRcRdfLDn2zUFJ9jChLpump"
+                class="hero__button button button--large"
+              >
+                <span>BUy now</span>
+                <span>BUy now</span>
+              </a>
+            </div>
+          </div>
+          <div class="hero__mob-img">
+            <img src="asset/diddy.jpg" alt="Image" />
+          </div>
+        </section>
+        <div class="page__grey-line"></div>
+        <section
+          data-watch="navigator"
+          class="page__about about"
+          data-watch-threshold="0.50"
+        >
+          <div class="about__container">
+            <div class="about__image">
+              <img
+                style="border-radius: 12px"
+                src="assets/diddy.jpg"
+                alt="Image"
+              />
+            </div>
+            <div class="about__content">
+              <div
+                class="about__hello hello-about _watcher-view"
+                data-watch-threshold="0.9"
+                data-watch-once=""
+                data-watch=""
+              >
+                <div class="hello-about__body">
+                  <div
+                    style="color: balck"
+                    class="about__text _watcher-view"
+                    data-watch-threshold="1"
+                    data-watch-once=""
+                    data-watch=""
+                  >
+                    Diddy The Lubericator: When Diddy needs his lube,
+                    the Lubericator delivers! A cheeky and slick
+                    narrative-driven project that oozes personality and humor.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          style="background-color: #aa744b"
+          data-watch="navigator"
+          class="page__how how"
+          data-watch-threshold="0.36"
+        >
+          <div class="how__header">
+            <div class="how__container">
+              <h2
+                class="how__title title _watcher-view"
+                data-watch-threshold="0.9"
+                data-watch-once=""
+                data-watch=""
+              >
+                <span>How</span><span>to</span><span>buy</span>
+              </h2>
+            </div>
+          </div>
+          <div class="how__body">
+            <div class="how__container">
+              <div class="how__body-box body-box">
+                <ul class="body-box__items">
+                  <li
+                    class="body-box__item _watcher-view"
+                    data-watch-threshold="0.9"
+                    data-watch-once=""
+                    data-watch=""
+                  >
+                    <p>
+                      <span>Set up a crypto wallet on the Solana network</span>
+                      <span>1</span>
+                    </p>
+                    <p>
+                      Visit <a href="https://phantom.app/">phantom.app</a> and
+                      follow the simple steps to create a new account with the
+                      Phantom app or browser extension.
+                    </p>
+                  </li>
+                  <li
+                    class="body-box__item _watcher-view"
+                    data-watch-threshold="0.9"
+                    data-watch-once=""
+                    data-watch=""
+                  >
+                    <p>
+                      <span>Get some SOL</span>
+                      <span>2</span>
+                    </p>
+                    <p>
+                      Tap the BUY button in the app to purchase SOL, or
+                      deposit SOL to your Phantom wallet from the crypto
+                      exchange of your choice.
+                    </p>
+                  </li>
+                  <li
+                    class="body-box__item _watcher-view"
+                    data-watch-threshold="0.9"
+                    data-watch-once=""
+                    data-watch=""
+                  >
+                    <p>
+                      <span>Swap SOL for $LUBE</span>
+                      <span>3</span>
+                    </p>
+                    <p>
+                      Tap the SWAP icon in your Phantom wallet and paste the
+                      $LUBE token address. Swap your SOL for $LUBE.
+                    </p>
+                  </li>
+                  <li
+                    class="body-box__item _watcher-view"
+                    data-watch-threshold="0.9"
+                    data-watch-once=""
+                    data-watch=""
+                  >
+                    <p>
+                      <span>Congrats, you are a $LUBE holder Now</span>
+                      <span>4</span>
+                    </p>
+                    <p>Welcome to the $LUBE revolution.</p>
+                  </li>
+                </ul>
+                <div class="body-box__image">
+                  <img
+                    style="border-radius: 12px"
+                    src="assets/didd.webp"
+                    alt="Image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="how__bottom"></div>
+        </section>
+        <section
+          data-watch="navigator"
+          class="page__tokenomics tokenomics"
+          data-watch-threshold="0.39"
+        >
+          <div class="tokenomics__container">
+            <h2
+              class="tokenomics__title title title-centre _watcher-view"
+              data-watch-threshold="0.9"
+              data-watch-once=""
+              data-watch=""
+            >
+              <span>Tokenomics</span>
+            </h2>
+            <div class="tokenomics__body">
+              <div class="tokenomics__image">
+                <img src="assets/tokenomics.jpg" alt="Image" />
+              </div>
+              <div
+                class="tokenomics__content _watcher-view"
+                data-watch-threshold="0.8"
+                data-watch-once=""
+                data-watch=""
+              >
+                <div class="tokenomics__items">
+                  <div class="tokenomics__item">
+                    <span>Ownership</span>
+                    <span>Renounced</span>
+                  </div>
+                  <div class="tokenomics__item">
+                    <span>Liquidity Pool</span>
+                    <span>Burnt</span>
+                  </div>
+                  <div class="tokenomics__item">
+                    <span>Buy/Sell Taxes</span>
+                    <span>0/0</span>
+                  </div>
+                  <div class="tokenomics__item">
+                    <span>TOTAL Supply </span>
+                    <span>1,000,000,000</span>
+                  </div>
+                </div>
+                <div class="tokenomics__ca">
+                  <p>Contract</p>
+                  <p>
+                    <span>81AENREyWi3yju3kyjZaXtRcRdfLDn2zUFJ9jChLpump</span>
+                    <button class="copy-ca-btn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                      >
+                        <path
+                          d="M33.75 4.375H13.75C13.2527 4.375 12.7758 4.57254 12.4242 4.92417C12.0725 5.27581 11.875 5.75272 11.875 6.25V11.875H6.25C5.75272 11.875 5.27581 12.0725 4.92417 12.4242C4.57254 12.7758 4.375 13.2527 4.375 13.75V33.75C4.375 34.2473 4.57254 34.7242 4.92417 35.0758C5.27581 35.4275 5.75272 35.625 6.25 35.625H26.25C26.7473 35.625 27.2242 35.4275 27.5758 35.0758C27.9275 34.7242 28.125 34.2473 28.125 33.75V28.125H33.75C34.2473 28.125 34.7242 27.9275 35.0758 27.5758C35.4275 27.2242 35.625 26.7473 35.625 26.25V6.25C35.625 5.75272 35.4275 5.27581 35.0758 4.92417C34.7242 4.57254 34.2473 4.375 33.75 4.375ZM24.375 31.875H8.125V15.625H24.375V31.875ZM31.875 24.375H28.125V13.75C28.125 13.2527 27.9275 12.7758 27.5758 12.4242C27.2242 12.0725 26.7473 11.875 26.25 11.875H15.625V8.125H31.875V24.375Z"
+                          fill="black"
+                        ></path>
+                      </svg>
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <section>
+          <div class="gallery-section">
+            <h2
+              class="tokenomics__title title title-centre _watcher-view"
+              data-watch-threshold="0.9"
+              data-watch-once=""
+              data-watch=""
+            >
+              <span>MEME GALLERY</span>
+            </h2>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="./assets//meme.jpg" alt="Image 1" />
+              </div>
+              <div class="gallery-item">
+                <img src="./assets//meme2.jpg" alt="Image 2" />
+              </div>
+              <div class="gallery-item">
+                <img src="./assets//meme3.jpg" alt="Image 3" />
+              </div>
+              <div class="gallery-item">
+                <img src="./assets//meme4.jpg" alt="Image 4" />
+              </div>
+              <div class="gallery-item">
+                <img src="./assets//meme5.jpg" alt="Image 5" />
+              </div>
+              <div class="gallery-item">
+                <img src="./assets//meme6.jpg" alt="Image 6" />
+              </div>
+              <div class="gallery-item">
+                <img src="./assets//meme7.jpg" alt="Image 7" />
+              </div>
+              <div class="gallery-item">
+                <img src="./assets//meme8.jpg" alt="Image 8" />
+              </div>
+              <div class="gallery-item">
+                <img src="./assets//meme9.jpg" alt="Image 9" />
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <section class="page__join join">
+          <div class="join__container">
+            <img
+              src="assets/logo.png"
+              alt="Spinning Image"
+              class="spinning-image"
+            />
+            <div class="join__content">
+              <h2
+                class="join__title title title--black _watcher-view"
+                data-watch-threshold="0.9"
+                data-watch-once=""
+                data-watch=""
+              >
+                <span style="color: white">Join</span
+                ><span style="color: white">Us</span>
+              </h2>
+              <p
+                class="join__text _watcher-view"
+                data-watch-threshold="0.9"
+                data-watch-once=""
+                data-watch=""
+                style="color: white"
+              >
+                Join us as we watch as this degenerate gambling $LUBE.
+              </p>
+              <div
+                class="join__actions _watcher-view"
+                data-watch-threshold="0.9"
+                data-watch-once=""
+                data-watch=""
+              >
+                <div class="join__social">
+                  <a target="_blank" href="ttlink" class="join__social-item">
+                    <img src="assets/x.svg" alt="X Logo" />
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://t.me/Lubricatorcommunity"
+                    class="join__social-item"
+                  >
+                    <img src="assets/telegram.svg" alt="Telegram Logo" />
+                  </a>
+                </div>
+                <a
+                  target="_blank"
+                  href="https://pump.fun/coin/81AENREyWi3yju3kyjZaXtRcRdfLDn2zUFJ9jChLpump"
+                  class="join__button button button--large"
+                >
+                  <span>Buy now</span>
+                  <span>Buy now</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="join__image-mob">
+            <img src="assets/chart.jpg" alt="Image" />
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__left">
+            <div class="footer__social">
+              <!-- <a
+                target="_blank"
+                href="dexslink"
+                class="footer__social-item"
+              >
+                <img src="assets/dex.svg" alt="X Logo" />
+              </a>
+              <a
+                target="_blank"
+                href="chartlink"
+                class="footer__social-item"
+              >
+                <img src="assets/dextools.svg" alt="X Logo" />
+              </a> -->
+              <!-- <a
+                target="_blank"
+                href="https://solscan.io/"
+                class="footer__social-item"
+              >
+                <img src="assets/solscan-logo.webp" alt="X Logo" />
+              </a> -->
+              <a target="_blank" href="ttlink" class="footer__social-item">
+                <img src="assets/x.svg" alt="X Logo" />
+              </a>
+              <a
+                target="_blank"
+                href="https://t.me/Lubricatorcommunity"
+                class="footer__social-item"
+              >
+                <img src="assets/telegram.svg" alt="Telegram Logo" />
+              </a>
+            </div>
+          </div>
+          <div class="footer__right">
+            <img src="assets/logo.png" alt="Image" />
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="assets/app.min5dec5dec.js"></script>
+  </body>
+</html>
