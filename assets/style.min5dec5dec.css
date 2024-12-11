@@ -216,7 +216,7 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 .button span:nth-child(1) {
-  color: #f5bad2;
+  color: #b35512;
 }
 .button span:nth-child(2) {
   position: absolute;
@@ -225,7 +225,7 @@ h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  color: #f5bad2;
+  color: #b35512;
   text-wrap: nowrap;
   scale: 1.2;
   display: inline-flex;
@@ -311,7 +311,7 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #aa744b;
+  background-color: #19a62c;
   border-bottom: 0.375rem solid #000;
   padding: 0.25rem 0;
   -webkit-transform: translateY(-100%);
@@ -322,7 +322,7 @@ h6 {
   animation: header 0.3s ease 0.4s forwards;
 }
 .header._header-scroll {
-  background-color: #aa744b;
+  background-color: #19a62c;
 }
 .header__container {
   position: relative;
@@ -390,7 +390,7 @@ h6 {
 }
 .footer {
   border-top: 0.5rem solid #000;
-  background-color: #f6bbd4;
+  background-color: #b35512;
   padding: 2.5rem 0;
 }
 .footer__container {
@@ -485,7 +485,7 @@ h6 {
 .page__grey-line {
   position: relative;
   width: 100%;
-  background-color: #aa744b;
+  background-color: #19a62c;
   border-top: 0.375rem solid #000;
   border-bottom: 0.375rem solid #000;
 }
@@ -844,7 +844,7 @@ h6 {
   width: 100%;
 }
 .about {
-  background-color: #aa744b;
+  background-color: #19a62c;
   border-bottom: 0.375rem solid #000;
 }
 .about__container {
@@ -882,7 +882,7 @@ h6 {
 .hello-about__body {
   border-radius: 3.375rem;
   border: 0.375rem solid #000;
-  background: #f5bad2;
+  background: #b35512;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1044,7 +1044,7 @@ h6 {
   position: relative;
 }
 .how__header {
-  background-color: #f6bbd4;
+  background-color: #b35512;
   border-bottom: 0.375rem solid #000;
 }
 .how__body .how__container {
@@ -1058,7 +1058,7 @@ h6 {
 .how__bottom {
   position: relative;
   height: 13.125rem;
-  background-color: #f6bbd4;
+  background-color: #b35512;
   border-top: 0.375rem solid #000;
   border-bottom: 0.375rem solid #000;
   background-image: url(./bottom-bg.png);
@@ -1115,7 +1115,7 @@ h6 {
   line-height: normal;
 }
 .body-box__item p:nth-child(2) {
-  color: #f5bad2;
+  color: #b35512;
   font-weight: 700;
   line-height: normal;
   opacity: 0;
@@ -1131,7 +1131,7 @@ h6 {
 }
 .roadmap {
   position: relative;
-  background-color: #aa744b;
+  background-color: #19a62c;
   border-bottom: 0.375rem solid #000;
 }
 .roadmap__image {
@@ -1158,13 +1158,13 @@ h6 {
   line-height: normal;
 }
 .roadmap__item-text {
-  color: #f5bad2;
+  color: #b35512;
   font-weight: 700;
   line-height: normal;
 }
 .tokenomics {
   position: relative;
-  background-color: #aa744b;
+  background-color: #19a62c;
 }
 .tokenomics__title {
   text-align: center;
@@ -1198,7 +1198,7 @@ h6 {
   justify-content: space-between;
 }
 .tokenomics__item span:nth-child(1) {
-  color: #f5bad2;
+  color: #b35512;
   font-weight: 700;
   line-height: normal;
 }
@@ -1218,7 +1218,7 @@ h6 {
   row-gap: 1rem;
 }
 .tokenomics__ca p:nth-child(1) {
-  color: #f5bad2;
+  color: #b35512;
   font-weight: 700;
   line-height: normal;
 }
@@ -1231,7 +1231,7 @@ h6 {
   column-gap: 1.875rem;
 }
 .tokenomics__ca p:nth-child(2):has(button:hover) span {
-  color: #aa744b;
+  color: #19a62c;
 }
 .tokenomics__ca p:nth-child(2) span {
   color: #000;
@@ -1262,7 +1262,7 @@ h6 {
   left: 0;
   width: 100%;
   height: 1.25rem;
-  background-color: #aa744b;
+  background-color: #19a62c;
 }
 .join__container {
   position: relative;
@@ -1363,7 +1363,7 @@ h6 {
   }
   .hero {
     /* background: rgb(80, 219, 80); */
-    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./backk.webp);
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(./bg.jpg);
     background-position: 10% 70%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1477,7 +1477,8 @@ h6 {
   }
   .join {
     /* background-image: url(./join.jpg); */
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url('./chart.jpg');
+    background: #19a62c;
+    /* background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url('./chart.jpg'); */
     background-position: 50% 20%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1881,7 +1882,7 @@ h6 {
     overflow: auto;
     padding: 6.25rem 0.9375rem 2.5rem 0.9375rem;
     transition: right 0.3s;
-    background-color: #aa744b;
+    background-color: #19a62c;
   }
   .menu-open .menu__body {
     right: 0;
@@ -1932,10 +1933,10 @@ h6 {
     transform: rotate(45deg);
   }
   .header {
-    background-color: #aa744b;
+    background-color: #19a62c;
   }
   .header._header-scroll {
-    background-color: #aa744b;
+    background-color: #19a62c;
   }
   .header__actions {
     flex-direction: column-reverse;
@@ -1949,7 +1950,7 @@ h6 {
     display: none;
   }
   .hero {
-    background-color: #aa744b;
+    background-color: #19a62c;
   }
   .hero__title {
     text-align: center;
@@ -1995,7 +1996,7 @@ h6 {
     row-gap: 1.875rem;
   }
   .join {
-    background-color: #aa744b;
+    background-color: #19a62c;
   }
   .join__title {
     justify-content: center;
@@ -3343,7 +3344,7 @@ h6 {
     scale: 1.2;
   }
   .tokenomics__ca p:nth-child(2) button:hover svg path {
-    fill: #aa744b;
+    fill: #19a62c;
   }
   .join__social-item:hover {
     border: 0.25rem solid #f2eb5e;
